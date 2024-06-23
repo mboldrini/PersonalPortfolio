@@ -72,7 +72,7 @@ function get_dynamic_services() {
 
             // Obter os campos personalizados do ACF
             $icon = get_field('icon');
-            $title = get_the_title();
+            $title = get_field('title');
             $description = get_field('description');
             $link = get_field('link');
 
